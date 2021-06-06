@@ -1,0 +1,15 @@
+ssh bandit0@bandit.labs.overthewire.org -p 2220; 
+pwd; ls; cat readme;
+ls; cat /home/bandit1/-;
+cat spaces\ in\ this\ filename;
+ls -a; cd inhere; cat .hidden;
+cd inhere; find . -readable -size 1033c ! -executable; cat < ./maybehere07/.file2;
+find / -type f -size 33c -user bandit7 -group bandit6 2>/dev/null;
+ls; grep millionth data.txt;
+ls; sort data.txt | uniq -u;
+strings data.txt | grep -E "=+";
+base64 -di data.txt;
+cat data.txt | tr 'A-Za-z' 'N-ZA-Mn-za-m';
+mkdir /tmp/my; cp data.txt /tmp/my; cd /tmp/my; cat data.txt | xxd -r > data; file data; mv data data2.gz; gzip -d data2.gz; ls; file data2; mv data2 data3.bz; ls; bzip2 -d data3.bz; ls; file data3; mv data3 data4.gz; ls; gzip -d data4.gz; ls; file data4; man tar; mv data4 data5.tar; ls; tar -xf data5.tar; ls; file data5.bin; mv data5.bin data6.tar; ls; tar -xf data6.tar; ls; file data6.bin; mv data6.bin data7.bz; ls; file data7; mv data7 data8.tar; tar -xf data8.tar; ls; file data8.bin; mv data8.bin data9.gz; gzip -d data9.gz; ls; file data9; cat < data9;
+
+

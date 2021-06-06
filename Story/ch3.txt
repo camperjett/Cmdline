@@ -1,0 +1,5 @@
+Hey! this is my first attempt at using vim editor on terminal!
+This is a new line (use enter for that).
+\n //this my friend is a escape combination!
+The end,
+Next please..........
